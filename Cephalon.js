@@ -7,5 +7,4 @@ function wiki(item){ //takes a string as input and turns it into a url
     output = 'https://warframe.fandom.com/wiki/'+caps;
     console.log(output)
 }
-
 //wiki('bo prime'); example
