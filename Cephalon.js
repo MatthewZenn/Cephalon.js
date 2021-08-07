@@ -1,5 +1,5 @@
-function wiki(item){
-    var str = item.replace(/['"]+/g, '');
+function wiki(item){ //takes a string as input and turns it into a url
+    var str = item
     function capitalize(str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
@@ -8,4 +8,4 @@ function wiki(item){
     console.log(output)
 }
 
-wiki('bo prime');
+//wiki('bo prime'); example
